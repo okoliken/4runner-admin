@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Login from '../views/Login.vue'
 import {useAppStore} from '../store/app'
+
 const routes = [
   {
     path: '/',
